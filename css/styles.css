@@ -1,0 +1,246 @@
+body {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+a {
+  text-decoration: none;
+  color: #2e2f42;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+.container {
+  display: block;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.header-block {
+  display: block;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e7e9fc;
+}
+.logo {
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4d5ae5;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.logo-web-nav {
+  color: #2e2f42;
+}
+.header-block .container {
+  display: flex;
+}
+
+.navigation-block {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-left: 76px;
+  padding-right: 332px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.navigation .navigation-link:hover,
+.navigation .navigation-link:focus {
+  color: #404bbf;
+}
+.navigation-link {
+  display: block;
+  padding: 24px 0;
+}
+.header-adress {
+  font-style: normal;
+}
+.contacts-list {
+  color: #434455;
+}
+.contacts {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+.contacts li a:hover,
+.contacts li a:focus {
+  color: #404bbf;
+}
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  max-width: 496px;
+}
+.main-button {
+  font-family: "Roboto", sans-serif;
+  background-color: #4d5ae5;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  display: block;
+  align-items: center;
+  margin-top: 48px;
+  margin-left: 164px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  min-width: 169px;
+  max-height: 56px;
+}
+.main-button:hover,
+.main-button:focus {
+  background: #404bbf;
+}
+.title-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.title-list-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.section-title-list {
+  background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
+}
+.footer-descr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 264px;
+}
+.footer-logo-footer {
+  background-color: #2e2f42;
+}
+.footer-block {
+  background-color: #2e2f42;
+}
+.logo-web-footer {
+  color: #f4f4fd;
+}
+.main-block {
+  display: flex;
+  flex-direction: column;
+}
+.section {
+  padding: 120px 0;
+  background-color: #f4f4fd;
+}
+.section:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 188px 0;
+  background-color: #2e2f42;
+  gap: 48px;
+}
+.section:nth-child(2n) {
+  background-color: #fff;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advantages {
+  display: flex;
+  gap: 24px;
+}
+.advantages-list {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.team {
+  display: flex;
+  gap: 24px;
+  text-align: center;
+}
+.team-list {
+  display: block;
+  padding: 32px 0;
+}
+.portfolio {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  row-gap: 48px;
+}
+.portfolio-list {
+  width: calc((100% - 48px) / 3);
+}
+.card-title {
+  display: block;
+  padding: 32px 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
+.footer-block {
+  display: block;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-block .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
