@@ -45,6 +45,8 @@ img {
 .section {
   padding: 120px 0;
   background-color: #f4f4fd;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .section:nth-child(2n) {
@@ -60,6 +62,7 @@ img {
   color: #4d5ae5;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
 }
 
 .section-title {
@@ -108,6 +111,8 @@ img {
   display: block;
   box-sizing: border-box;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .header-logo {
@@ -125,15 +130,18 @@ img {
   display: flex;
   gap: 40px;
   align-items: center;
-  margin-left: 76px;
-  padding-right: 332px;
+  /* padding-right: 332px; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .navigation .navigation-link:hover,
 .navigation .navigation-link:focus {
+  color: #404bbf;
+}
+.studio .navigation-link {
   color: #404bbf;
 }
 .navigation-link {
@@ -148,11 +156,13 @@ img {
   width: 100%;
   height: 4px;
   background-color: #404bbf;
+  bottom: -1px;
   position: absolute;
-  translate: 0 21px;
 }
+
 .header-adress {
   font-style: normal;
+  margin-left: auto;
 }
 .contacts-list {
   color: #434455;
@@ -168,6 +178,7 @@ img {
 .contacts li a:hover,
 .contacts li a:focus {
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* #endregion */
@@ -181,11 +192,15 @@ img {
   padding: 188px 0;
   background-color: #2e2f42;
   gap: 48px;
+  max-width: 1440px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\ 1.jpg);
+    url(../images/img-name.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .main-title {
@@ -219,6 +234,7 @@ img {
 .main-button:hover,
 .main-button:focus {
   background: #404bbf;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* #endregion */
